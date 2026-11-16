@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="960" height="360" role="img" aria-labelledby="t d">
+  <title id="t">Junk to Luxury architecture</title>
+  <desc id="d">The client shows state and requests actions through one network module. The authoritative server validates and decides, and keeps a versioned save profile. Both read the shared frozen config tables and pure rules.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#57606a"/></marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .h { font-size: 20px; font-weight: 700; }
+    .s { font-size: 14px; fill: #424a53; }
+    .l { font-size: 13px; fill: #57606a; }
+  </style>
+  <rect x="1" y="1" width="958" height="358" rx="14" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+
+  <rect x="40" y="36" width="270" height="170" rx="12" fill="#ddf4ff" stroke="#54aeff" stroke-width="2"/>
+  <text class="h" x="64" y="74">Client</text>
+  <text class="s" x="64" y="104">UI and controllers</text>
+  <text class="s" x="64" y="128">Shows state, asks for actions</text>
+  <text class="s" x="64" y="152">Never trusted with money or progress</text>
+
+  <rect x="650" y="36" width="270" height="170" rx="12" fill="#fff1e5" stroke="#fb8f44" stroke-width="2"/>
+  <text class="h" x="674" y="74">Server (authoritative)</text>
+  <text class="s" x="674" y="102">Services: restoration, economy,</text>
+  <text class="s" x="674" y="122">workers, Car Show</text>
+  <text class="s" x="674" y="142">Validates and decides</text>
+  <rect x="674" y="154" width="222" height="32" rx="8" fill="#ffffff" stroke="#fb8f44"/>
+  <text class="s" x="692" y="175">Versioned save profile</text>
+
+  <line x1="314" y1="90" x2="646" y2="90" stroke="#57606a" stroke-width="2" marker-end="url(#a)"/>
+  <text class="l" x="480" y="78" text-anchor="middle">requests an action (one network module)</text>
+  <line x1="646" y1="146" x2="314" y2="146" stroke="#57606a" stroke-width="2" marker-end="url(#a)"/>
+  <text class="l" x="480" y="168" text-anchor="middle">validated state</text>
+
+  <rect x="40" y="256" width="880" height="72" rx="12" fill="#dafbe1" stroke="#4ac26b" stroke-width="2"/>
+  <text class="h" x="64" y="288">Shared</text>
+  <text class="s" x="64" y="312">Frozen config tables for every balance number, and pure rules (economy, vehicles, district) used by both sides</text>
+
+  <line x1="175" y1="252" x2="175" y2="210" stroke="#57606a" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="785" y1="252" x2="785" y2="210" stroke="#57606a" stroke-width="2" marker-end="url(#a)"/>
+</svg>
